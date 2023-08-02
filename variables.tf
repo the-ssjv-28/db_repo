@@ -15,5 +15,5 @@ variable "charset" {
 }
 
 variable "collation" {
-  default = "en_GB.utf8"
+  
 }
