@@ -11,7 +11,7 @@ variable "resource_group_name" {
 }
 
 variable "charset" {
-  default = "LATIN1"
+  default = "UTF9"
 }
 
 variable "collation" {
