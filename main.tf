@@ -1,4 +1,4 @@
-resource "azurerm_postgresql_database" "db" {
+resource "azurerm_postgresql_database" "db_repo" {
 for_each = var.repo_conf
 
   name                = each.value.name
